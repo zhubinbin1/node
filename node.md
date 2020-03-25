@@ -74,7 +74,7 @@ npm install pack-zhubin -g
 npm run 功能将当前文件夹下的node_module是bin放到path环境中,如果run后后命令,会执行,这个执行的命令在.bin目录下可直接执行
 
 ## node核心模块(utils event)
-
+node 基于事件
 ## buffer 应用
 
 ## fs应用和流

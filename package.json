@@ -12,6 +12,10 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "jquery": "^3.4.1"
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "mime": "^2.4.4",
+    "mongodb": "^3.5.5",
+    "nunjucks": "^3.2.1"
   }
 }
