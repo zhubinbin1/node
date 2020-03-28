@@ -18,10 +18,10 @@ let path = require("path")
 // console.log(buf4)
 // buf = Buffer.alloc(256);
 // len = buf.write("www.runoob.com");
-var buffer1 = Buffer.from(('菜鸟教程'));
-var buffer2 = Buffer.from(('www.runoob.com'));
-var buffer3 = Buffer.concat([buffer1,buffer2]);
-console.log("buffer3 内容: " + buffer3.toString());
+// var buffer1 = Buffer.from(('菜鸟教程'));
+// var buffer2 = Buffer.from(('www.runoob.com'));
+// var buffer3 = Buffer.concat([buffer1,buffer2]);
+// console.log("buffer3 内容: " + buffer3.toString());
 
 // fs.readFile(path.resolve(__dirname,"index.js"),'utf8',function(err,data){
 //     if(data){//文件不存在,会创建,如果有,清空,再写,会以utf8编写,如果是对象格式,会转换utf8
@@ -62,3 +62,8 @@ console.log("buffer3 内容: " + buffer3.toString());
 // r[0]=100
 // console.log(buf1.slice(0,1))
 // girl.emit("xxx");
+
+
+const a = "123.4.5"
+const [k,v,m] = a.split(".")
+console.log(k,v,m)

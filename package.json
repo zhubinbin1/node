@@ -17,5 +17,18 @@
     "mime": "^2.4.4",
     "mongodb": "^3.5.5",
     "nunjucks": "^3.2.1"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhubinbin1/node.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/zhubinbin1/node/issues"
+  },
+  "homepage": "https://github.com/zhubinbin1/node#readme"
 }
