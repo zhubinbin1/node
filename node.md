@@ -78,3 +78,7 @@ node 基于事件
 ## buffer 应用
 
 ## fs应用和流
+
+
+# ejs的使用
+官网: https://ejs.bootcss.com/#install
