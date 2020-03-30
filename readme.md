@@ -1,5 +1,22 @@
 
-项目包含mongoose ,mongodb ,ejs ,node, express 练习项目
+项目包含mongoose ,mongodb ,ejs ,node, express ,koa,ECharts 练习项目
+# express 使用
+* 官网api: http://expressjs.jser.us/3x_zh-cn/api.html
+
+
+# koa 使用 
+* 官网api: https://chenshenhai.github.io/koa2-note/note/start/quick.html
+* https://koa.bootcss.com/
+
+# mongoose 使用
+* 参考: https://www.cnblogs.com/zhongweiv/p/mongoose.html
+    https://segmentfault.com/a/1190000010688972 
+  测试项目在db目录下
+* mongosedb 
+https://www.cnblogs.com/zhongweiv/p/node_mongodb.html
+
+# ECharts 线型图
+* 参考: https://www.echartsjs.com/zh/tutorial.html 
 
 # ejs 练习测试
 
@@ -93,7 +110,7 @@ console.log(result);
  浏览器访问 .../node-test/ejs/tmpl/cleaning.html  ...你的工作目录
 
  > ejs 使用 
- 
+
   在模板中, <% %> 括起来的内容会作为 Javascript 代码来编译 <%= %> 和 <%- %>将括起来的变量中的数据渲染到模板 * <%=...%>, 变量值若包含 '<' '>' '&' 等字符会被转义 * <%-...%>, 变量值是什么就输出什么
  
 * 参考: https://zhuanlan.zhihu.com/p/52722144
