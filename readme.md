@@ -18,6 +18,7 @@ static-sever.js 中,使用koa-static 中间件
 ejs 官网 https://github.com/mde/ejs
 
 
+
 ### node cookie 使用
 - ctx.cookies.get(name, [options]) 读取上下文请求中的cookie
 - ctx.cookies.set(name, value, [options]) 在上下文中写入cookie
@@ -39,6 +40,49 @@ https://www.cnblogs.com/zhongweiv/p/node_mongodb.html
 
 # ECharts 线型图
 * 参考: https://www.echartsjs.com/zh/tutorial.html 
+
+# project test 项目
+
+ 参考 https://chenshenhai.github.io/koa2-note/note/project/start.html
+
+- 使用react服务端渲染  https://zhuanlan.zhihu.com/p/57856814
+
+ 项目在project 文件夹中
+> 启动 nodemon  ./project/server/app.js
+
+project中执行tree 命令,目录结构
+data //数据库
+server //server相关
+  app.js //入口
+  routers //路由
+    controllers //处理路由逻辑功能
+  config.js //端口号等配置文件
+  views //服务端模板渲染引擎中间件
+```
+├── config.js //端口号等配置文件
+├── data //数据库
+│   ├── index.js
+│   ├── model
+│   └── util 
+├── server //server相关
+│   ├── app.js //入口
+│   ├── routers //路由
+│   │   ├── controllers //处理路由逻辑功能
+│   │   │   ├── home.js
+│   │   │   └── user.js
+│   │   ├── error.js
+│   │   ├── home.js// 首页路由
+│   │   ├── index.js // 路由入口
+│   │   └── user.js
+│   └── views //服务端模板渲染引擎中间件
+│       ├── error.ejs //错误页面
+│       ├── home.ejs //首页
+│       └── sign-in.ejs //登陆
+└── static 
+    ├── build
+    └── output
+```
+
 
 # ejs 测试
 
