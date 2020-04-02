@@ -64,6 +64,18 @@ let path = require("path")
 // girl.emit("xxx");
 
 
-const a = "123.4.5"
-const [k,v,m] = a.split(".")
-console.log(k,v,m)
+// const a = "123.4.5"
+// const [k,v,m] = a.split(".")
+// console.log(k,v,m)
+// let queryStrList = [1,2,3,4]
+// for (  let aaa of queryStrList.entries()  ) {
+//     console.log(aaa)
+//     //[ 0, 1 ]
+//     // [ 1, 2 ]
+//     // [ 2, 3 ]
+//     // [ 3, 4 ]
+//     // let itemList = queryStr.split('=')
+//     // queryData[ itemList[0] ] = decodeURIComponent(itemList[1])
+//   }
+
+// console.log(Math.random().toString(20))

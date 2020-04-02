@@ -2,11 +2,33 @@
 项目包含mongoose ,mongodb ,ejs ,node, express ,koa,ECharts 练习项目
 # express 使用
 * 官网api: http://expressjs.jser.us/3x_zh-cn/api.html
-
+> 项目中ejs测试项目使用的express
+nodemon ./ejs/server.js即可运行
 
 # koa 使用 
 * 官网api: https://chenshenhai.github.io/koa2-note/note/start/quick.html
 * https://koa.bootcss.com/
+
+目录在koa中
+server1.js 中 使用bodyParser中间件和 router中间件
+server2.js 中模拟static中间件
+static-sever.js 中,使用koa-static 中间件
+
+### koa ejs 
+ejs 官网 https://github.com/mde/ejs
+
+
+### node cookie 使用
+- ctx.cookies.get(name, [options]) 读取上下文请求中的cookie
+- ctx.cookies.set(name, value, [options]) 在上下文中写入cookie
+
+参考:https://chenshenhai.github.io/koa2-note/note/session/info.html
+
+### node debugger调试 
+- 谷歌浏览器启动访问 chrome://inspect/
+- 或者启动命令如:node --inspect ./koa/server2.js
+  注意:不可用nodemon  --inspect ./koa/server2.js  
+参考: https://chenshenhai.github.io/koa2-note/note/debug/info.html
 
 # mongoose 使用
 * 参考: https://www.cnblogs.com/zhongweiv/p/mongoose.html
@@ -18,7 +40,7 @@ https://www.cnblogs.com/zhongweiv/p/node_mongodb.html
 # ECharts 线型图
 * 参考: https://www.echartsjs.com/zh/tutorial.html 
 
-# ejs 练习测试
+# ejs 测试
 
 - 生成package.json 
 ```
