@@ -1,5 +1,9 @@
 
-项目包含mongoose ,mongodb ,ejs ,node, express ,koa,ECharts 练习项目
+项目包含mongoose ,mongodb ,ejs ,node, express ,koa,ECharts,前端监控 练习项目
+
+# 前端监控
+>项目在monitor文件夹下面
+
 # express 使用
 * 官网api: http://expressjs.jser.us/3x_zh-cn/api.html
 > 项目中ejs测试项目使用的express
@@ -46,6 +50,8 @@ https://www.cnblogs.com/zhongweiv/p/node_mongodb.html
  参考 https://chenshenhai.github.io/koa2-note/note/project/start.html
 
 - 使用react服务端渲染  https://zhuanlan.zhihu.com/p/57856814
+- TypeScript + Webpack + Koa 搭建自定义的 React 服务端渲染 
+https://react.ctolib.com/wokeyi-costomize-server-side-render.html
 
  项目在project 文件夹中
 > 启动 nodemon  ./project/server/app.js

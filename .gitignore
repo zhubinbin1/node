@@ -1,5 +1,6 @@
 .DS_Store
 /node_modules
+/monitor/website/node_modules
 
 # Log files
 npm-debug.log*
